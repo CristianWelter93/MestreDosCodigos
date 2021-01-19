@@ -1,3 +1,5 @@
+# HISTÓRIA DO JAVA
+
 O Java começou a ser criado em 1991, na `Sun Microsystem`. Inicialmente o objetivo não era criar uma linguagem de programação, mas sim antecipar o que acreditavam ser a próxima tendência na área de informática: a integração entre os computadores e os eletrodomésticos.
 
 O projeto era para pequenos dispositivos eletrônicos, o objetivo era criar programas portáteis que pudessem ser executados em diversos dispositivos, porém logo perceberam que teriam que desenvolver programas específicos para cada um. Para contornar este problema, tiveram a ideia de criar um sistema operacional que permitisse a utilização dos seus programas por diversos tipos de dispositivos, surgindo assim a `linguagem Oak`.
