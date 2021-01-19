@@ -11,7 +11,10 @@ Dentro de Java/Escudeiro estão os arquivos contendo as respostas, organizados e
 
 #### O básico do Java
 
-* Questão 1
+* [Questão 1](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/O%20b%C3%A1sico%20do%20Java/1)
+* Questão 2
+* Questão 3
+* Questão 4
 
 #### Conhecendo a Plataforma
 
