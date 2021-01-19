@@ -29,7 +29,7 @@ Dentro de Java/Escudeiro estão os arquivos contendo as respostas, organizados e
 * [Questão 6](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20tipos%20de%20dados/6/EstudoArray.java)
 
 ##### Trabalhando com laços de repetição
-
+* [Questão 7](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20la%C3%A7os%20de%20repeti%C3%A7%C3%A3o/7)
 ##### Trabalhando com estrutura de dados
 
 ##### Trabalhando com POO (Programação Orientada a Objetos)
