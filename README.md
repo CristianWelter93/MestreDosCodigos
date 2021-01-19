@@ -31,11 +31,15 @@ Dentro de Java/Escudeiro estão os arquivos contendo as respostas, organizados e
 ##### Trabalhando com laços de repetição
 * [Questão 7](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20la%C3%A7os%20de%20repeti%C3%A7%C3%A3o/7)
 ##### Trabalhando com estrutura de dados
+* [Questão 8](https://github.com/CristianWelter93/MestreDosCodigos)
+* [Questão 9](https://github.com/CristianWelter93/MestreDosCodigos)
 
 ##### Trabalhando com POO (Programação Orientada a Objetos)
-
+* [Questão 10](https://github.com/CristianWelter93/MestreDosCodigos)
+* [Questão 11](https://github.com/CristianWelter93/MestreDosCodigos)
 ##### Trabalhando com exceções
-
+* [Questão 12](https://github.com/CristianWelter93/MestreDosCodigos)
 ##### Trabalhando com qualidade de código
-
+* [Questão 13](https://github.com/CristianWelter93/MestreDosCodigos)
 #### Vamos Praticar
+* [Questão 1](https://github.com/CristianWelter93/MestreDosCodigos)
