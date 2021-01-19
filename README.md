@@ -20,6 +20,14 @@ Dentro de Java/Escudeiro estão os arquivos contendo as respostas, organizados e
 
 ##### Trabalhando com tipos de dados
 
+
+* [Questão 1](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20tipos%20de%20dados/1.md)
+* [Questão 2](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20tipos%20de%20dados/2.md)
+* [Questão 3](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20tipos%20de%20dados/3.md)
+* [Questão 4](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20tipos%20de%20dados/4/ConversaoBigDecimal.java)
+* [Questão 5](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20tipos%20de%20dados/5/ConversaoDatas.java)
+* [Questão 6](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20tipos%20de%20dados/6/EstudoArray.java)
+
 ##### Trabalhando com laços de repetição
 
 ##### Trabalhando com estrutura de dados
