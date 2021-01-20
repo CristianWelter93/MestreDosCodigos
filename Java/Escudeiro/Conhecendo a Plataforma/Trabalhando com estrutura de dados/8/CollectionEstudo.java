@@ -155,11 +155,13 @@ public class CollectionEstudo {
         System.out.println("  LinkedList: Também pode ser utilizada como uma pilha.");
         System.out.println("  PriorityQueue: Mantém uma lista de prioridade, onde a ordem de prioridade dos seus elementos é definida pela implementação de Comparable ou Comparator");
 
-        PriorityQueue<String> queue = new PriorityQueue<String>();
+        PriorityQueue<String> queue = new PriorityQueue();
+        LinkedList<String> linkedList = new LinkedList();
 
         String[] nomes = {"Maria","Jose","Carlos","Monica","Luiz","Ana","Helia","Beatriz","Fernando","Fernanda"};
 
         queue.addAll(Arrays.asList(nomes));
+        linkedList.addAll(Arrays.asList(nomes));
 
 
         System.out.println("\nOrdem de inserção da lista de nomes :");
@@ -168,21 +170,34 @@ public class CollectionEstudo {
         System.out.println("\nLista de nomes inserida em uma PriorityQueue :");
         System.out.println(queue);
 
+        System.out.println("\nLista de nomes inserida em uma LinkedList :");
+        System.out.println(linkedList);
+
         System.out.println("\nRemovendo elemento da fila, sempre será o primeiro (a menos que seja especificado) :");
-        System.out.println("Elemento removido -> "+queue.remove());
+        System.out.println("Elemento removido -> "+queue.poll());
         System.out.println(queue);
 
-        System.out.println("\nAo adicionar um novo elemento ele será inserido na posição conforme a prioridade da fila");
-        System.out.println("\nAdicionado elemento na fila, nome Amanda :");
+        System.out.println("\nRemovendo elemento da fila, sempre será o primeiro (a menos que seja especificado) :");
+        System.out.println("Elemento removido -> "+linkedList.poll());
+        System.out.println(linkedList);
+
+        System.out.println("\nAo adicionar um novo elemento na PriorityQueue ele será inserido na posição conforme a prioridade da fila");
+        System.out.println("\nAdicionado elemento na PriorityQueue, nome Amanda :");
         queue.add("Amanda");
         System.out.println(queue);
 
-        System.out.println("\nAdicionado elemento na fila, nome Xuxa :");
+        System.out.println("\nAo adicionar um novo elemento na LinkedList ele será inserido no final");
+        System.out.println("\nAdicionado elemento na LinkedList, nome Amanda :");
+        linkedList.add("Amanda");
+        System.out.println(linkedList);
+
+        System.out.println("\nAdicionado elemento na PriorityQueue, nome Xuxa :");
         queue.add("Xuxa");
         System.out.println(queue);
 
-
+        System.out.println("\nAdicionado elemento na LinkedList, nome Xuxa :");
+        linkedList.add("Xuxa");
+        System.out.println(linkedList);
     }
-
-
 }
+
