@@ -1,24 +1,30 @@
 import java.util.*;
 
 public class CollectionEstudo {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         setInterface();
         listInterface();
-	queueInterface();	
+        queueInterface();
     }
 
 
     public static void setInterface() {
         System.out.println("\nSet: Define uma coleção que não contém valores duplicados. \n");
-        System.out.println("  SortedSet:  Possibilita a classificação natural dos elementos, tal como a ordem alfabética.");
-        System.out.println("  NavigableSet: É parecido como o SortedSet com a diferença de que possuí métodos de navegação, como por exemplo navegar na ordem inversa.");
-        System.out.println("  TreeSet: Implementa as duas interfaces anteriores. Os dados são classificados, desta forma é preferível quando se necessita um conjunto de elementos não duplicados e acesso em ordem natural.");
-        System.out.println("  HashSet:  Acesso aos dados mais rápidos que um TreeSet, mas não há garantias de que os dados estejam ordenados. Utilizado quando a ordem dos elementos não é importante");
-        System.out.println("  LinkedHashSet:  É uma HashSet com uma lista duplamente ligada através de seus itens. Seus elementos são iterados na ordem em que foram inseridos.");
+        System.out.println("  SortedSet:  Possibilita a classificação natural dos elementos, tal como a ordem" +
+                " alfabética.");
+        System.out.println("  NavigableSet: É parecido como o SortedSet com a diferença de que possuí métodos de" +
+                " navegação, como por exemplo navegar na ordem inversa.");
+        System.out.println("  TreeSet: Implementa as duas interfaces anteriores. Os dados são classificados, desta" +
+                " forma é preferível quando se necessita um conjunto de elementos não duplicados e acesso em ordem natural.");
+        System.out.println("  HashSet:  Acesso aos dados mais rápidos que um TreeSet ( e muito mais rápido que uma List " +
+                "quando utilizamos por exemplo o método contains), mas não há garantias de que os dados estejam" +
+                " ordenados. Utilizado quando a ordem dos elementos não é importante");
+        System.out.println("  LinkedHashSet:  É uma HashSet com uma lista duplamente ligada através de seus itens." +
+                " Seus elementos são iterados na ordem em que foram inseridos.");
 
-        TreeSet<String> nomesTreeSet = new TreeSet<String>();
-        HashSet<String> nomesHashSet = new HashSet<String>();
-        LinkedHashSet<String> nomesLinkedHashSet = new LinkedHashSet<String>();
+        TreeSet<String> nomesTreeSet = new TreeSet<>();
+        HashSet<String> nomesHashSet = new HashSet<>();
+        LinkedHashSet<String> nomesLinkedHashSet = new LinkedHashSet<>();
 
         String[] nomes = {"Maria","José","Carlos","Monica","Luiz","Ana","Zelia","Beatriz","Fernando","Fernanda"};
 
@@ -48,10 +54,20 @@ public class CollectionEstudo {
 
 
     public static void listInterface() {
-        System.out.println("\nList: Define uma coleção ordenada que pode conter elementos duplicados. Há controle total sobre a posição dos elementos tanto para inserir quando para recuperá-los. Preferível quando se necessita de acesso aleatório através do ìndice do elemento.\n");
-        System.out.println("  ArrayList: Array cujo tamanho pode crescer. Busca de um elemento é rápida, mas quanto maior a estrutura maior o tempo para incluir ou excluir um elemento. Ficar alterando o seu tamanho pode ser prejudicial ao desempenho, pois é feita uma cópia do ArrayList atual para um novo ArrayList com o novo tamanho.");
-        System.out.println("  LinkedList: Cada nó contém uma referência ao próximo nó. As buscas são um pouco mais demoradas, porém as exclusões e inserções são mais rápidas.");
-        System.out.println("  Vector: Muito similar ao ArrayList porém é sincronizado, logo é seguro para ser utilizado com threads. Quando sua lista está cheia ele aumenta o dobro do seu tamanho, enquanto um ArrayList aumenta 50%. Logo o Vector é mais recomendável se a aplicação exibir que a lista seja aumentada com muita frequência.\n");
+        System.out.println("\nList: Define uma coleção ordenada que pode conter elementos duplicados. Há controle total " +
+                "sobre a posição dos elementos tanto para inserir quando para recuperá-los. Preferível quando" +
+                " se necessita de acesso aleatório através do ìndice do elemento.\n");
+        System.out.println("  ArrayList: Array cujo tamanho pode crescer. Busca de um elemento é rápida, mas quanto" +
+                " maior a estrutura maior o tempo para incluir ou excluir um elemento. Ficar alterando o seu tamanho" +
+                " pode ser prejudicial ao desempenho, pois é feita uma cópia do ArrayList atual para um novo ArrayList" +
+                " com o novo tamanho.");
+        System.out.println("  LinkedList: Cada nó contém uma referência ao próximo nó. As buscas são um pouco mais" +
+                " demoradas, porém as exclusões e inserções são mais rápidas. É possível ter acesso a métodos que" +
+                " permitem obter ou remover o primeiro e ultimo elemento.");
+        System.out.println("  Vector: Muito similar ao ArrayList porém é sincronizado, logo é seguro para ser utilizado" +
+                " com threads. Quando sua lista está cheia ele aumenta o dobro do seu tamanho, enquanto um ArrayList " +
+                "aumenta 50%. Logo o Vector é mais recomendável se a aplicação exibir que a lista seja aumentada com" +
+                " muita frequência.\n");
 
         Vector vector = new Vector();
         ArrayList arrayList = new ArrayList();
@@ -153,7 +169,8 @@ public class CollectionEstudo {
     public static void queueInterface() {
         System.out.println("\nQueue: Define uma coleção que representa uma fila (First-in, First-Out).\n");
         System.out.println("  LinkedList: Também pode ser utilizada como uma pilha.");
-        System.out.println("  PriorityQueue: Mantém uma lista de prioridade, onde a ordem de prioridade dos seus elementos é definida pela implementação de Comparable ou Comparator");
+        System.out.println("  PriorityQueue: Mantém uma lista de prioridade, onde a ordem de prioridade dos seus" +
+                " elementos é definida pela implementação de Comparable ou Comparator");
 
         PriorityQueue<String> queue = new PriorityQueue();
         LinkedList<String> linkedList = new LinkedList();
@@ -199,5 +216,7 @@ public class CollectionEstudo {
         linkedList.add("Xuxa");
         System.out.println(linkedList);
     }
+
+
 }
 
