@@ -36,7 +36,7 @@ Dentro de Java/Escudeiro estão os arquivos contendo as respostas, organizados e
 
 ##### Trabalhando com POO (Programação Orientada a Objetos)
 * [Questão 10](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20POO%20(Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos)/10)
-* [Questão 11](https://github.com/CristianWelter93/MestreDosCodigos)
+* [Questão 11](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20POO%20(Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos)/11)
 ##### Trabalhando com exceções
 * [Questão 12](https://github.com/CristianWelter93/MestreDosCodigos)
 ##### Trabalhando com qualidade de código
