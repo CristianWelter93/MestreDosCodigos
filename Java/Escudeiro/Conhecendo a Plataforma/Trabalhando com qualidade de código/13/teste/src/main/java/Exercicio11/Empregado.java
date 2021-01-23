@@ -1,3 +1,5 @@
+package Exercicio11;
+
 public abstract class Empregado extends Pessoa {
     private float salarioBase;
     private float impostoRenda;

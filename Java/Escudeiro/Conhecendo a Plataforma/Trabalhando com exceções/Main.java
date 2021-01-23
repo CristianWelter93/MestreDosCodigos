@@ -6,10 +6,16 @@ public class Main {
 	System.out.println("\n********************************************************************************************************\n");
 	System.out.println("\nCriando própria exception\n");
         System.out.println("\nUma nota de 120 foi atribuída a um aluno, quando isso acontece a NotaException é lançada\n");
-        int nota = 120;
+       
+	int valor = 120;
+        int nota = verificarNota(valor);
+        System.out.println(nota);
+    }
 
-        if(nota > 100){
+    public static int verificarNota(int nota) throws NotaException {
+	if(nota > 100){
             throw new NotaException();
         }
+        return nota;
     }
 }
