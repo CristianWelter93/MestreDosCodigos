@@ -66,4 +66,4 @@
 
  10 e 11 (POO): por serem exercícios em que foram implementados mais métodos;
  12. Excepctions: para que através dos teste unitários se comprovar que uma exceção está sendo lançada.
- Foi utilizado o ´maven´ para a criação do projeto onde estão os [testes](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20qualidade%20de%20c%C3%B3digo/13/teste/src/test/java).
+ Foi utilizado o maven para a criação do projeto onde estão os [testes](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20qualidade%20de%20c%C3%B3digo/13/teste/src/test/java).
