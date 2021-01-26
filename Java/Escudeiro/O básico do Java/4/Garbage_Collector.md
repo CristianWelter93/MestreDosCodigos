@@ -11,7 +11,7 @@ Primeiramente os objetos não referenciados são identificados e marcados como p
 
 Na segunda etapa estes objetos marcados são excluídos, opcionalmente a memória pode ser compactada após o garbage collector excluir os objetos. Este processo de compactação torna mais fácil alocar memória para novos objetos.
 
-Os garbage collectors do HotSpot implementam uma estratégia geracional que categoriza objetos por idade, parte do princípio de que a maioria dos objetos é de curta duração sendo assim estarão disponíveis para a liberação logo após a sua criação. Basicamente existe uma pilha dividida e 3 partes:
+Os garbage collectors do HotSpot implementam uma estratégia geracional que categoriza objetos por idade, parte do princípio de que a maioria dos objetos é de curta duração sendo assim estarão disponíveis para a liberação logo após a sua criação. Basicamente existe uma pilha dividida em 3 partes:
 
 * Young generation: Onde estão os objetos recém criados, dentro dela há uma subdivisão entre Eden e Survivor 0 e Survivor 1. Nos Survivors ficam os objetos novos que sobreviveram a um  ciclo de garbage collection.
 
