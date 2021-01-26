@@ -42,4 +42,4 @@ Dentro de Java/Escudeiro estão os arquivos contendo as respostas, organizados e
 ##### Trabalhando com qualidade de código
 * [Questão 13](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/Conhecendo%20a%20Plataforma/Trabalhando%20com%20qualidade%20de%20c%C3%B3digo/13)
 #### Vamos Praticar
-* [Questão 1](https://github.com/CristianWelter93/MestreDosCodigos)
+* [Questão 1](https://github.com/CristianWelter93/MestreDosCodigos/tree/main/Java/Escudeiro/Vamos%20praticar/Exercicio%202)
