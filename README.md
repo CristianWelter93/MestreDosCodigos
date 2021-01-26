@@ -3,7 +3,9 @@ Estudo realizado no game Mestre dos códigos da DB1.
 
 Atualmente a trilha que está sendo realizada é a Escudeiro Java.
 
-Dentro de Java/Escudeiro estão os arquivos contendo as respostas, organizados e separados conforme a própria estrutura encontrada na página https://db1group.github.io/mestre-dos-codigos/#/java?id=escudeiro
+Dentro de Java/Escudeiro estão os arquivos contendo as respostas, organizados e separados conforme a própria estrutura encontrada na página [Mestre dos Códigos- Escudeiro_Java](https://db1group.github.io/mestre-dos-codigos/#/java?id=escudeiro)
+
+Abaixo temos os links para cada exercício. Caso o exercício possua mais de um arquivo de resposta o link redirecionará para a página onde existam todos os arquivos a serem abertos. Se a resposta depender de um único arquivo o link existente exibe o código ou texto de resposta.
 
 ## JAVA
 
