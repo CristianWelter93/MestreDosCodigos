@@ -2,9 +2,9 @@
 
 O Java começou a ser criado em 1991, na `Sun Microsystem`. Inicialmente o objetivo não era criar uma linguagem de programação, mas sim antecipar o que acreditavam ser a próxima tendência na área de informática: a integração entre os computadores e os eletrodomésticos.
 
-O projeto era para pequenos dispositivos eletrônicos, o objetivo era criar programas portáteis que pudessem ser executados em diversos dispositivos, porém logo perceberam que teriam que desenvolver programas específicos para cada um. Para contornar este problema, tiveram a ideia de criar um sistema operacional que permitisse a utilização dos seus programas por diversos tipos de dispositivos, surgindo assim a `linguagem Oak`.
+O projeto era para pequenos dispositivos eletrônicos, o objetivo era criar programas portáteis que pudessem ser executados em diversos dispositivos porém logo perceberam que teriam que desenvolver programas específicos para cada um. Para contornar este problema, tiveram a ideia de criar um sistema operacional que permitisse a utilização dos seus programas por diversos tipos de dispositivos surgindo assim a `linguagem Oak`.
 
-Porém, no cenário dos anos 90 o mundo ainda não estava preparado para uma tecnologia mais interativa e o sistema operacional desenvolvido para estes dispositivos eletrônicos foi abandonado. Como a internet estava ficando cada vez mais popular, tentaram adaptar essa linguagem para ela, surgindo então o `Java`.
+Porém no cenário dos anos 90 o mundo ainda não estava preparado para uma tecnologia mais interativa e o sistema operacional desenvolvido para estes dispositivos eletrônicos foi abandonado. Como a internet estava ficando cada vez mais popular tentaram adaptar essa linguagem para ela, surgindo então o `Java`.
 
 O nome Java é uma homenagem à ilha Indonésia de onde o café consumido pela equipe era importado.
 
@@ -24,7 +24,7 @@ Java é uma linguagem orientada a objetos, dentro dela existem vários conceitos
 * Objetos = É um elemento de uma classe. Por exemplo, dentro da classe “Doces” podemos ter os objetos chocolate e paçoca, ambos são doces as possuem características/atributos diferentes. Um objeto tem variáveis, métodos, e também classes.
 * Instância = Uma instância de uma classe é um novo objeto criado dessa classe, utiliza-se o operador new para isto.
 * Variáveis = Representam características/ atributos dos objetos.
-* Interface = É a declaração de um conjunto de constantes e métodos sem qualquer implementação, usando a palavra implements. Ela caracteriza um conjunto de atributos e métodos que um objeto pode ter.
+* Interface = É a declaração de um conjunto de constantes e métodos sem qualquer implementação, usando a palavra interface. Ela caracteriza um conjunto de atributos e métodos que um objeto pode ter.
 * SuperClasse = Toda classe é criada tendo outra como base, a superclasse por default é a Object. Uma classe que gerou a outra é chamada de superclasse, a que foi gerada é chamada de subclasse é faz referência a superclasse através do termo extends.
 * Construtores = Método que possui o mesmo nome da classe, utilizado para inicializar objetos e chamados através do operador new.
 * Polimorfismo = Capacidade de um método executar a ação adequada dependendo do tipo de objeto.
