@@ -117,4 +117,17 @@ public class DeslocamentoTest {
         Assert.assertTrue(true);
     }
 
+    @Test
+    public void should_return_case_of_test() {
+        List<Integer> velocidades = new ArrayList<>();
+        List<Integer> tempos = new ArrayList<>();
+        Deslocamento.lendoArquivo("src/test/java/CaseTesteTest.txt", velocidades, tempos);
+
+        Assert.assertEquals(2,velocidades.size());
+        Assert.assertEquals(2,tempos.size());
+        Assert.assertEquals(Integer.valueOf(0),velocidades.get(0));
+        Assert.assertEquals(Integer.valueOf(12),tempos.get(1));
+
+    }
+
 }

@@ -1,0 +1,3 @@
+O primeiro exercício [Volta à Faculdade de Física](https://www.urionlinejudge.com.br/judge/pt/problems/view/1197) foi escolhido por se tratar de um problema matemático, onde que além de trabalhar com os tipos numéricos e suas pecularidades pude também testar um pouco a minha lógica matemática.
+
+O segundo exercício [Lista Telefônica Econômica](https://www.urionlinejudge.com.br/judge/pt/problems/view/1211) foi escolhido por focar um pouco mais no lado da lógica e por estar na categoria "Estruturas e Bibliotecas", para poder aplicar um pouco mais os conhecimentos obtidos sobre java.

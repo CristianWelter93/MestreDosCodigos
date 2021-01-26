@@ -19,13 +19,13 @@ public class Deslocamento {
         Integer tempo;
         BigDecimal aceleracao;
 
-        System.out.println(" Entrada                    " + " | " + " Saída");
+
         for (int i = 0; i < velocidades.size(); i++) {
             velocidade = velocidades.get(i);
             tempo = tempos.get(i);
             aceleracao = calcularAceleracao(velocidade, tempo);
             posicao.add(calcularPosicaoFinal(aceleracao, tempo));
-            System.out.println(velocidade + " " + tempo + "                    " + " | " + " " + posicao.get(i));
+            System.out.println(posicao.get(i));
         }
     }
 
@@ -69,7 +69,7 @@ public class Deslocamento {
 
     public static void lendoArquivo(String patch, List<Integer> velocidades, List<Integer> tempos) {
         try {
-            System.out.println("Lendo arquivos com caso de testes: " + patch);
+            System.out.println("Lendo dados do caso de testes: " + patch);
             LeituraCasoDeTestes.leitor(patch, velocidades, tempos);
         } catch (IOException e) {
             System.out.println("Não foi possível realizar a leitura do arquivo. " + e.getMessage());

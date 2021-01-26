@@ -11,7 +11,7 @@ public class LeituraCasosDeTestesTest {
     public void should_open_file() {
         List<Integer> dados = new ArrayList<>();
         try {
-            LeituraCasoDeTestes.leitor("CaseTeste.txt", dados, dados);
+            LeituraCasoDeTestes.leitor("src/test/java/CaseTesteTest.txt", dados, dados);
             Assert.assertTrue(true);
         } catch (IOException e) {
             System.out.println("Erro ao abrir arquivo");
