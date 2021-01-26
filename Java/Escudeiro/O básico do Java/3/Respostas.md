@@ -6,16 +6,17 @@ Instalei então o JDK no computador, em seguida foi necessário adicionar a vari
 
 No terminal naveguei até a pasta onde estava o projeto e digitei o seguinte comando:
 
-   javac Escudeiro.java
+    javac Escudeiro.java
+   
 Ele faz com que o código seja compilado gerando um arquivo .class da classe em questão.
 
 Depois de compilado pude digitar o comando:
 
-   java Escudeiro
+    java Escudeiro
 
 Este comando roda o código compilado exibindo a mensagem:
 
-   Hello Word!
+    Hello Word!
 
 Para que uma classe possa ser executada pelo comando `"java"` ela deve possuir no mínimo o método `Main`, até consegue-se compilar uma classe sem o método main, porém, ela não será executável.
 O método main é um método especial que contém as instruções da principal linha de execução de um programa, ou seja, de onde ele começa.
