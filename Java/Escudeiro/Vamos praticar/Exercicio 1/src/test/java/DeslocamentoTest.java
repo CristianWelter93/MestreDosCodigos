@@ -12,23 +12,15 @@ import static java.math.BigDecimal.ZERO;
 public class DeslocamentoTest {
 
     @Test
-    public void should_validate_speed_when_is_100() {
-        try {
-            Deslocamento.validaVelocidade(100);
-        } catch (IllegalArgumentException e) {
-            Assert.assertTrue(false);
-        }
-        Assert.assertFalse(false);
+    public void should_validate_speed_when_is_100() throws IllegalArgumentException {
+        Deslocamento.validaVelocidade(100);
+        Assert.assertTrue(true);
     }
 
     @Test
-    public void should_validate_speed_when_is_negative() {
-        try {
-            Deslocamento.validaVelocidade(-100);
-        } catch (IllegalArgumentException e) {
-            Assert.assertTrue(false);
-        }
-        Assert.assertFalse(false);
+    public void should_validate_speed_when_is_negative() throws IllegalArgumentException {
+        Deslocamento.validaVelocidade(-100);
+        Assert.assertTrue(true);
     }
 
     @Test
@@ -42,13 +34,9 @@ public class DeslocamentoTest {
     }
 
     @Test
-    public void should_validate_time() {
-        try {
-            Deslocamento.validaTempo(200);
-        } catch (IllegalArgumentException e) {
-            Assert.assertTrue(false);
-        }
-        Assert.assertFalse(false);
+    public void should_validate_time() throws IllegalArgumentException {
+        Deslocamento.validaTempo(200);
+        Assert.assertTrue(true);
     }
 
     @Test
