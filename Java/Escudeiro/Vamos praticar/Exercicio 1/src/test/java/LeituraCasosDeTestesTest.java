@@ -8,15 +8,10 @@ import java.util.List;
 public class LeituraCasosDeTestesTest {
 
     @Test
-    public void should_open_file() {
+    public void should_open_file() throws IOException {
         List<Integer> dados = new ArrayList<>();
-        try {
-            LeituraCasoDeTestes.leitor("src/test/java/CaseTesteTest.txt", dados, dados);
-            Assert.assertTrue(true);
-        } catch (IOException e) {
-            System.out.println("Erro ao abrir arquivo");
-            Assert.assertTrue(false);
-        }
+        LeituraCasoDeTestes.leitor("src/test/java/CaseTesteTest.txt", dados, dados);
+        Assert.assertTrue(true);
     }
 
     @Test
