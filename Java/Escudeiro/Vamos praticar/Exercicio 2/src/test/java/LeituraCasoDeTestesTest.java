@@ -11,15 +11,9 @@ public class LeituraCasoDeTestesTest {
     private static List<Grupo> grupos = new ArrayList<>();
 
     @Test
-    public void should_open_file() {
-
-        try {
-            LeituraCasoDeTestes.leitor("src/test/java/CaseTesteTest.txt", grupos);
-            Assert.assertTrue(true);
-        } catch (IOException e) {
-            System.out.println("Erro ao abrir arquivo");
-            Assert.assertTrue(false);
-        }
+    public void should_open_file() throws IOException {
+        LeituraCasoDeTestes.leitor("src/test/java/CaseTesteTest.txt", grupos);
+        Assert.assertTrue(true);
     }
 
     @Test
@@ -49,36 +43,21 @@ public class LeituraCasoDeTestesTest {
     }
 
     @Test
-    public void should_validate_number() {
-        try {
-            LeituraCasoDeTestes.validaNumero("12345678911234567891");
-            Assert.assertTrue(true);
-        } catch (IllegalArgumentException e) {
-            System.out.println("Lançou exception na validação do numero");
-            Assert.assertTrue(false);
-        }
+    public void should_validate_number() throws IllegalArgumentException {
+        LeituraCasoDeTestes.validaNumero("12345678911234567891");
+        Assert.assertTrue(true);
     }
 
     @Test
-    public void should_validate_group_size() {
-        try {
-            LeituraCasoDeTestes.validaTamanhoGrupo(10000);
-            Assert.assertTrue(true);
-        } catch (IllegalArgumentException e) {
-            System.out.println("Lançou exception na validação do tamanho do grupo");
-            Assert.assertTrue(false);
-        }
+    public void should_validate_group_size() throws IllegalArgumentException {
+        LeituraCasoDeTestes.validaTamanhoGrupo(10000);
+        Assert.assertTrue(true);
     }
 
     @Test
-    public void should_validate_data() {
-        try {
-            LeituraCasoDeTestes.validaTipo("1");
-            Assert.assertTrue(true);
-        } catch (IllegalArgumentException e) {
-            System.out.println("Lançou exception na validação do tipo");
-            Assert.assertTrue(false);
-        }
+    public void should_validate_data() throws IllegalArgumentException {
+        LeituraCasoDeTestes.validaTipo("1");
+        Assert.assertTrue(true);
     }
 
 }
