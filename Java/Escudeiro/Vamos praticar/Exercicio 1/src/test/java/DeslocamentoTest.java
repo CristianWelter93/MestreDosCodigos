@@ -118,4 +118,17 @@ public class DeslocamentoTest {
 
     }
 
+    @Test
+    public void should_get_result() {
+        List<Integer> velocidades = new ArrayList<>();
+        List<Integer> tempos = new ArrayList<>();
+        List<BigInteger> posicao = new ArrayList<>();
+        Deslocamento.lendoArquivo("src/test/java/CaseTesteTest.txt", velocidades, tempos);
+
+        Deslocamento.resultadoFinal(velocidades, tempos, posicao);
+        Assert.assertEquals(2,posicao.size());
+        Assert.assertEquals(BigInteger.ZERO,posicao.get(0));
+        Assert.assertEquals(BigInteger.valueOf(120),posicao.get(1));
+    }
+
 }

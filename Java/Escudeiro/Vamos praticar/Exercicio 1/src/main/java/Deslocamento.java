@@ -14,20 +14,20 @@ public class Deslocamento {
 
     public static void main(String[] args) {
         lendoArquivo(patch, velocidades, tempos);
-        resultadoFinal();
+        resultadoFinal(velocidades, tempos, posicao);
     }
     
-    public static void resultadoFinal() {
+    public static void resultadoFinal(List<Integer> v, List<Integer> t, List<BigInteger> p) {
         Integer velocidade;
         Integer tempo;
         BigDecimal aceleracao;
         
-        for (int i = 0; i < velocidades.size(); i++) {
-            velocidade = velocidades.get(i);
-            tempo = tempos.get(i);
+        for (int i = 0; i < v.size(); i++) {
+            velocidade = v.get(i);
+            tempo = t.get(i);
             aceleracao = calcularAceleracao(velocidade, tempo);
-            posicao.add(calcularPosicaoFinal(aceleracao, tempo));
-            System.out.println(posicao.get(i));
+            p.add(calcularPosicaoFinal(aceleracao, tempo));
+            System.out.println(p.get(i));
         }
     }
 
