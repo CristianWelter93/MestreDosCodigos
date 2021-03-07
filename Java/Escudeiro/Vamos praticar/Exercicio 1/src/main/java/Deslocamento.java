@@ -14,12 +14,14 @@ public class Deslocamento {
 
     public static void main(String[] args) {
         lendoArquivo(patch, velocidades, tempos);
-
+        resultadoFinal();
+    }
+    
+    public static void resultadoFinal() {
         Integer velocidade;
         Integer tempo;
         BigDecimal aceleracao;
-
-
+        
         for (int i = 0; i < velocidades.size(); i++) {
             velocidade = velocidades.get(i);
             tempo = tempos.get(i);
