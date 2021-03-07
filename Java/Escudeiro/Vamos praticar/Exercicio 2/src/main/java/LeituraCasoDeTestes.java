@@ -3,6 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigInteger;
 import java.util.List;
+import java.util.Objects;
 
 public class LeituraCasoDeTestes {
 
@@ -12,8 +13,8 @@ public class LeituraCasoDeTestes {
         Integer tamanhoGrupo;
         Grupo grupo;
         while (true) {
-            if (linha != null) {
-                if (linha != "") {
+            if (Objects.nonNull(linha)) {
+                if (!linha.equals("")) {
                     validaTipo(linha);
                     tamanhoGrupo = Integer.valueOf(linha);
                     validaTamanhoGrupo(tamanhoGrupo);
