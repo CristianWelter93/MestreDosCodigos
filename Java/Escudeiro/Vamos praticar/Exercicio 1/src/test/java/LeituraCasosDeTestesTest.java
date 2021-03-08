@@ -11,7 +11,6 @@ public class LeituraCasosDeTestesTest {
     public void should_open_file() throws IOException {
         List<Integer> dados = new ArrayList<>();
         LeituraCasoDeTestes.leitor("src/test/java/CaseTesteTest.txt", dados, dados);
-        Assert.assertTrue(true);
     }
 
     @Test
