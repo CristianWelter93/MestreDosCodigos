@@ -22,7 +22,7 @@ public class LeituraCasoDeTestes {
                     for (int i = 0; i < tamanhoGrupo; i++) {
                         validaTipo(linha);
                         linha = buffRead.readLine();
-                        if (linha != null && linha != "") {
+                        if (Objects.nonNull(linha) && !linha.equals("")) {
                             validaNumero(linha);
                             grupo.addNumero(linha);
 
