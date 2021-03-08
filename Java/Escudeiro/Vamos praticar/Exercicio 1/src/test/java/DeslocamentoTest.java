@@ -14,13 +14,11 @@ public class DeslocamentoTest {
     @Test
     public void should_validate_speed_when_is_100() throws IllegalArgumentException {
         Deslocamento.validaVelocidade(100);
-        Assert.assertTrue(true);
     }
 
     @Test
     public void should_validate_speed_when_is_negative() throws IllegalArgumentException {
         Deslocamento.validaVelocidade(-100);
-        Assert.assertTrue(true);
     }
 
     @Test
@@ -36,7 +34,6 @@ public class DeslocamentoTest {
     @Test
     public void should_validate_time() throws IllegalArgumentException {
         Deslocamento.validaTempo(200);
-        Assert.assertTrue(true);
     }
 
     @Test
@@ -101,8 +98,6 @@ public class DeslocamentoTest {
     public void should_never_thrown_IOException() {
         List<Integer> dados = new ArrayList<>();
         Deslocamento.lendoArquivo("Inexistente.txt", dados, dados);
-
-        Assert.assertTrue(true);
     }
 
     @Test
