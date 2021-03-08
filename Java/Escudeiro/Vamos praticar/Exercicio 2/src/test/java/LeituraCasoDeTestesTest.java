@@ -13,7 +13,6 @@ public class LeituraCasoDeTestesTest {
     @Test
     public void should_open_file() throws IOException {
         LeituraCasoDeTestes.leitor("src/test/java/CaseTesteTest.txt", grupos);
-        Assert.assertTrue(true);
     }
 
     @Test
@@ -45,19 +44,16 @@ public class LeituraCasoDeTestesTest {
     @Test
     public void should_validate_number() throws IllegalArgumentException {
         LeituraCasoDeTestes.validaNumero("12345678911234567891");
-        Assert.assertTrue(true);
     }
 
     @Test
     public void should_validate_group_size() throws IllegalArgumentException {
         LeituraCasoDeTestes.validaTamanhoGrupo(10000);
-        Assert.assertTrue(true);
     }
 
     @Test
     public void should_validate_data() throws IllegalArgumentException {
         LeituraCasoDeTestes.validaTipo("1");
-        Assert.assertTrue(true);
     }
 
 }
