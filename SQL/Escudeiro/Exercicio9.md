@@ -12,4 +12,3 @@ Opção 1
 Na opção 2 o reference está invertido, está primeiro o campo e depois a tabela
 
 Na opção 3 a alteração está criando uma chave estrangeira na tabela client
-------------------------------------------------------------------------------
