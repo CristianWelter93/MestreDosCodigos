@@ -9,6 +9,7 @@ CREATE TABLE `usuario` (
 
 
 -- Dados inseridos
+
   INSERT INTO usuario (cpf, nome, email, cpf_responsavel) VALUES('00557935613', 'alma', 'alma@gmail.com', NULL);
   INSERT INTO usuario (cpf, nome, email, cpf_responsavel) VALUES('01555445662', 'lurdes', 'lurdes@hotmail.com', NULL);
   INSERT INTO usuario (cpf, nome, email, cpf_responsavel) VALUES('01557995642', 'affonso', 'affonso@hotmail.com', NULL);
@@ -24,7 +25,9 @@ CREATE TABLE `usuario` (
 
 
 -- Query hierarquico 
+
 -- Seleciona todos os usuarios que "descendem" do usuario com cpf 00557935613, "filhos". "netos" e assim por diante
+
 with recursive cte (cpf, nome, cpf_responsavel) as (
   select     cpf,
              nome,
