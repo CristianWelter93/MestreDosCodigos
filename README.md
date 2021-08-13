@@ -8,7 +8,7 @@ Em SQL/Escudeiro se encontram os arquivos resposta deste desafio. As repostas es
 * [Questão 1](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio1.png)
 * [Questão 2](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio2.md)
 * [Questão 3](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio3.md)
-* [Questão 4](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio4.md)
+* [Questão 4](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio4 .md)
 * [Questão 5](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio5.md)
 * [Questão 6](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio6.md)
 * [Questão 7](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio7.md)
