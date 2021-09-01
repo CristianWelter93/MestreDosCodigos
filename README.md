@@ -15,7 +15,7 @@ Em SQL/Escudeiro se encontram os arquivos resposta deste desafio. As repostas es
 * [Questão 8](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio8.md)
 * [Questão 9](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio9.md)
 * [Questão 10](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio10.md)
-* [Questão 11](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio11.md1)
+* [Questão 11](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio11.md)
 * [Questão 12](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio12.md)
 * [Questão 13](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio13.md)
 * [Questão 14](https://github.com/CristianWelter93/MestreDosCodigos/blob/main/SQL/Escudeiro/Exercicio14.md)
