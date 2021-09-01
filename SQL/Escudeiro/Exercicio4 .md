@@ -37,7 +37,7 @@ CREATE TABLE `usuario` (
 
 -- Query hierarquico 
 
--- Seleciona todos os usuarios que "descendem" do usuario com cpf 00557935613, "filhos". "netos" e assim por diante
+-- Seleciona todos os usuarios que "descendem" do usuario com cpf 00557935613, "filhos". "netos" e assim por diante (em relação a ser responsável)
 
 with recursive cte (cpf, nome, cpf_responsavel) as (
   select     cpf,
