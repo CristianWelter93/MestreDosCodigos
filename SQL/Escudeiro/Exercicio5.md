@@ -1,9 +1,9 @@
 * Seleciona a quantidade de cursos de cada escola
 
-    select count(*) as quantidade_de_cursos, e.nome as escola
-	from curso c 
-	inner join escola e ON c.escola_id = e.id
-	group by c.escola_id;
+      select count(*) as quantidade_de_cursos, e.nome as escola
+	  from curso c 
+	  inner join escola e ON c.escola_id = e.id
+	  group by c.escola_id;
 
 
 * Seleciona os alunos que tem notas em Matematica e/ou em Portugues
