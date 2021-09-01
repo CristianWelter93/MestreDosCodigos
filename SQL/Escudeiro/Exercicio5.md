@@ -24,9 +24,13 @@
 	  right join escola e on e.id = n.escola_id
 	  where a.cpf is null;
 
-* Exibe os professores sem escola 
+* Exibe o cpf dos professores sem escola (MINUS)
 
-      select p.nome from professor p where p.nome not in (
+      SELECT cpf FROM professor MINUS SELECT cpf_professor FROM curso_has_professor; 
+      
+     O Mysql não oferece suporte ao MINUS por isso seria necessário fazer algo como no select abaixo:
+
+      select p.cpf from professor p where p.nome not in (
 	  select p1.nome from curso_has_professor chp
 	  join professor p1 on chp.cpf_professor = p1.cpf group by p1.cpf 
 	  )
